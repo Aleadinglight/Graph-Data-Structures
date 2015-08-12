@@ -13,6 +13,7 @@ void input()
     scanf("%i %i",&m,&n);
     for(int i=0;i<m;i++){
         scanf("%i %i",&x,&y);
+        // Adjacency Matrix
         a[x-1][y-1]=1;
     }
 }
