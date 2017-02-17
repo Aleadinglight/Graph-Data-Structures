@@ -53,7 +53,7 @@ void input()
 {
     char c;
     int k;
-    //freopen("","r",stdin);
+    freopen("input.inp","r",stdin);
     while (scanf("%c",&c)!=EOF)
     {
         if (c=='+'){
