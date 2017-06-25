@@ -1,4 +1,0 @@
-Input given for:
-  + Hamilton Cycle: n - number of vertex, m - number of edge, k - the start of Hamilton cycle. Each of the next m lines contain an edge             meaning there is a connection from x -> y.
-  + Strong Connected Component: m - number of edge, n - vertex.
-  + Disjoint Set Union: m - number of edge, n - vertex.
