@@ -19,7 +19,7 @@ My implementation and some notes to review when needed. More description is in t
 - [Binary Search Tree:](../master/DataStructures/BinarySearchTree.cpp) In computer science, binary search trees (BST), sometimes called ordered or sorted binary trees, are a particular type of container: data structures that store "items" (such as numbers, names etc..) in memory. When you look for a value, it takes only O(n) complexity.
 
 ## Graph
-- [Disjoint Set Union:](../master/Graph/DisjointSetUnion.cpp) In this example we will input in edges of a tree, then we will build a tree based on this input using disjoint union set technique: Finding the parent of a node, then decide where that node locates in this tree.
+- [Disjoint Set Union:](../master/Graph/DisjointSetUnion.cpp) In this example we will input in edges of a tree, then we will build a tree based on this input using disjoint union set technique: Finding the parent of a node, then decide where that node locates in this tree. as
 
 - [Strongly Connected Component:](../master/Graph/Strong_Connected_Component.cpp) Strongly connected component is a **directed** subgraph where nodes are connected in such a way that, every vertex/node is reachable from other vertices/nodes of that subgraph. Here I wrote one program to test if the given graph is a strongly connected component. This algorithm's idea is very complicated.
 
