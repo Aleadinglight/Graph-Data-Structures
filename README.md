@@ -21,8 +21,8 @@ My implementation and some notes to review when needed. More description is in t
 ## Graph
 - [Disjoint Set Union:](../master/Graph/DisjointSetUnion.cpp) In this example we will input in edges of a tree, then we will build a tree based on this input using disjoint union set technique: Finding the parent of a node, then decide where that node locates in this tree.
 
-- [Strong connected component:](../master/Graph/Strong_Connected_Component.cpp) ...
+- [Strongly Connected Component:](../master/Graph/Strong_Connected_Component.cpp) Strongly connected component is a **directed** subgraph where nodes are connected in such a way that, every vertex/node is reachable from other vertices/nodes of that subgraph. Here I wrote one program to test if the given graph is a strongly connected component.
 
-- [Hamilton cycle:](../master/Graph/Hamilton_Cycle.cpp) ...
+- [Hamilton cycle:](../master/Graph/Hamilton_Cycle.cpp) Hamiltonian path (or traceable path) is a path in an undirected or directed graph that visits each vertex exactly once. A Hamiltonian cycle (or Hamiltonian circuit) is a Hamiltonian path that is a cycle. Here I wrote one program to print all Hamilton cycle starting from a given vertex with backtracking.
 
 - [Bellman - Ford:](../master/Graph/Ford-Bellman.cpp) The Bellman–Ford algorithm is an algorithm that computes shortest paths from a single source vertex to all of the other vertices in a weighted digraph.

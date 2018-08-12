@@ -27,19 +27,25 @@ void output()
     printf("\n");
 }
 
+// Try the vertex ith
 void Try(int i)
 {
+    // If dont have n element in the cycle yet
     if (i<=n){
         for (int j=1;j<=n;j++)
+            // If vertex j is not visited and there is a path from last element of cycle to j
             if (check[j]==0 && a[x[i-1]][j]==1)
             {
+                // We add j to the cycle
                 check[j]=1;
                 x[i]=j;
+                // Try the next one
                 Try(i+1);
                 check[j]=0;
             }
     }
     else
+    // If we have completed the circle then print out
         if (a[x[i-1]][k]==1)
             output();
 }
@@ -47,8 +53,11 @@ void Try(int i)
 int main()
 {
     input();
+    // The start is k so the start is checked
     check[k]=1;
+    // The first element of the cyle is k
     x[1]=k;
+    // Try to find the second element
     Try(2);
     return 0;
 }
