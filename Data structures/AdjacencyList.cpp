@@ -15,8 +15,10 @@ int main()
     vector<vii> adjList(n+1); //For vertex 1..n
     // m next lines each contains 3 int "u v c" meaning: edges from u->v with cost c
     int u,v,c;
+    // Read file
     for (int i=0; i<m; i++){
         cin>>u>>v>>c;
+        // Each element in adjList[u] is a vertex v that is connected to u with cost C 
         adjList[u].push_back(make_pair(v, c));
     }
     // Print out the edges stored in Adjacency List
