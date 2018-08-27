@@ -5,6 +5,7 @@ using namespace std;
 stack <int> store;
 int m,n,a[10000][10000],number[10000], low[10000],check[10000],d=0,component=0;
 
+// Input:  m - number of edge, n - vertex.
 void input()
 {
     int x,y;
