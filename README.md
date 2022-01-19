@@ -18,6 +18,8 @@ My implementation and some notes to review when needed. More description is in t
 
 - [Binary Search Tree:](../master/DataStructures/BinarySearchTree.cpp) In computer science, binary search trees (BST), sometimes called ordered or sorted binary trees, are a particular type of container: data structures that store "items" (such as numbers, names etc..) in memory. When you look for a value, it takes only O(n) complexity.
 
+- [Validate Binary Search Tree:](../master/DataStructures/ValidateBST.cpp) Validating a Binary Search Tree, using `low_bound` and `high_bound`.
+
 ## Graph
 - [Disjoint Set Union:](../master/Graph/DisjointSetUnion.cpp) In this example we will input in edges of a tree, then we will build a tree based on this input using disjoint union set technique: Finding the parent of a node, then decide where that node locates in this tree.
 
